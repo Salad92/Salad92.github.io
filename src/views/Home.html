@@ -1,86 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Invest - Your Journey to Smart Investing</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <!-- Custom styles -->
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-        }
-        .navbar-brand {
-            font-weight: bold;
-        }
-        .jumbotron {
-            background-color: #f8f9fa;
-            padding: 2rem;
-        }
-    </style>
+    <title>Easy Invest - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Easy Invest</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="Home.html"><i class="fas fa-home"></i> Home</a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="GetStarted.html"><i class="fas fa-rocket"></i> Get Started</a>
+                        <a class="nav-link" href="GetStarted.html">Get Started</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="StockIdeas.html"><i class="fas fa-lightbulb"></i> Stock Ideas</a>
+                        <a class="nav-link" href="StockIdeas.html">Stock Ideas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="MyTaxes.html"><i class="fas fa-file-invoice-dollar"></i> My Taxes</a>
+                        <a class="nav-link" href="MyTaxes.html">My Taxes</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <main class="container mt-4">
-        <section class="jumbotron">
-            <h1 class="display-4">Welcome to Easy Invest</h1>
-            <p class="lead">Your journey to easy investing starts here. We provide the tools and knowledge you need to make informed investment decisions and secure your financial future.</p>
-            <a href="GetStarted.html" class="btn btn-primary btn-lg">Get Started Now</a>
+    <main role="main">
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="display-4">Welcome to Easy Invest</h1>
+                <p class="lead">Your journey to easy investing starts here. We provide the tools and knowledge you need to make informed investment decisions and secure your financial future.</p>
+                <a href="GetStarted.html" class="btn btn-primary btn-lg">Get Started Now</a>
+            </div>
         </section>
-        
-        <section class="mt-5">
-            <h2>Why Choose Easy Invest?</h2>
-            <ul class="list-group">
-                <li class="list-group-item"><i class="fas fa-chart-line"></i> Expert Stock Ideas: Get access to curated investment opportunities.</li>
-                <li class="list-group-item"><i class="fas fa-shield-alt"></i> Secure Investments: Your security is our top priority.</li>
-                <li class="list-group-item"><i class="fas fa-coins"></i> Tax-Efficient Strategies: Optimize your investments for tax efficiency.</li>
-                <li class="list-group-item"><i class="fas fa-user-graduate"></i> Educational Resources: Learn as you invest with our comprehensive guides.</li>
-            </ul>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center">Why Choose Easy Invest?</h2>
+                <ul class="feature-list">
+                    <li>Expert Stock Ideas: Get access to curated investment opportunities.</li>
+                    <li>Secure Investments: Your security is our top priority.</li>
+                    <li>Tax-Efficient Strategies: Optimize your investments for tax efficiency.</li>
+                    <li>Educational Resources: Learn as you invest with our comprehensive guides.</li>
+                </ul>
+            </div>
         </section>
-        
-        <section class="mt-5">
-            <h2>Ready to Start Investing?</h2>
-            <p>Join thousands of satisfied investors who have already discovered the Easy Invest advantage.</p>
-            <a href="GetStarted.html" class="btn btn-success btn-lg">Create Your Account</a>
+
+        <section class="section bg-light">
+            <div class="container text-center">
+                <h2>Ready to Start Investing?</h2>
+                <p>Join thousands of satisfied investors who have already discovered the Easy Invest advantage.</p>
+                <a href="GetStarted.html" class="btn btn-success btn-lg">Create Your Account</a>
+            </div>
         </section>
     </main>
-    
-    <footer class="bg-light text-center text-lg-start mt-5">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2024 Easy Invest. All rights reserved.
+
+    <footer class="text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Easy Invest. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
